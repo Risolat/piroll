@@ -256,23 +256,21 @@
 		<div class="container">
 			<h2 class="question__heading same-headings">Need a Project</h2>
 			<p class="questions__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla sint, rerum aspernatur nostrum, facilis provident! Quam quisquam architecto totam quia.</p>
-			<form action="#" class="questions__form" method="POST">
+			<form action="https://echo.htmlacademy.ru" class="questions__form" method="POST">
 				<div class="questions__name-email">
-					<label for="name-input" class="questions_label">
-						<input class="questions__input" type="text" name="name" id="name-input" placeholder="Your Name">
-					</label>
-					<label for="email-input" class="questions__label">
-						<input class="questions__input" type="email" name="email" id="email-input" placeholder="Your Email">
-					</label>
+					<label for="name-input" class="questions_label">Name</label>
+					<input class="questions__input" type="text" name="name" id="name-input" placeholder="Your Name" required>
+					<label for="email-input" class="questions__label">Email</label>
+					<input class="questions__input" type="email" name="email" id="email-input" placeholder="Your Email" required>
 				</div>
 				<label for="title-input" class="questions__label">
-					<input class="questions__input" type="text" name="title" id="title-input" placeholder="Your Title">
 				</label>
+					<input class="questions__input" type="text" name="title" id="title-input" placeholder="Your Title" required>
 				<label for="comment-input" class="questiona__label">
-					<textarea class="questions__input" name="comment" id="comment-input" rows="4" cols="70" placeholder="Your Comment">
-					</textarea>
 				</label>
-				<a href="#" class="questions__btn">Send Message</a>
+					<textarea class="questions__input" name="comment" id="comment-input" rows="4" cols="70" placeholder="Your Comment" required>
+					</textarea>
+				<button class="questions__btn" type="submit">Send a message</button>
 			</form>
 		</div>
 	</section>
