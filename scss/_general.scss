@@ -17,48 +17,6 @@ body{
 	line-height: 60px;
 	letter-spacing: 0.3px;
 }
-.hero{
-	margin-bottom: 50px;
-	height: 600px;
-	background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/macbook.jpg") no-repeat 90% 30% fixed;
-	background-size: cover;	
-}
-.hero__heading-wrapper{
-	margin-left: 700px;
-	margin-top: 100px;
-}
-.hero__heading{
-	width: 500px;
-	margin: 0;
-	padding-bottom: 20px;
-	color: #1d1d1d;
-	font-size: 38px;
-	font-weight: 600;
-	line-height: 48px;
-	letter-spacing: 0.38px;
-}
-.hero__text{
-	width: 474px;
-	margin: 0;
-	padding-bottom: 30px;
-	color: #787878;
-	font-family: "Nunito Sans";
-	font-size: 18px;
-	font-weight: 500;
-	line-height: 28px;
-	letter-spacing: 0.09px;
-}
-.hero__link{
-	padding: 20px 30px;
-	color: #ffffff;
-	font-size: 12px;
-	font-weight: 500;
-	line-height: 84px;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 1.2px;
-	background-color: #10c9c3;
-}
 .about{
 	text-align: center;
 }
@@ -283,11 +241,6 @@ body{
   padding: 0;
   list-style-type: none;
 }
-.partners__item{
-  
-}
-
-
 
 @media (max-width: 1180px) {
 	.container{
