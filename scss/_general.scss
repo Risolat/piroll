@@ -23,40 +23,6 @@ body{
 	background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/macbook.jpg") no-repeat 90% 30% fixed;
 	background-size: cover;	
 }
-.site-nav{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 10px;
-}
-.site-nav__logo{
-	padding: 10px;
-}
-.site-nav__list{
-	max-width: 600px;
-	display: flex;
-	flex-grow: 1;
-	margin: 10px;
-	padding: 0;
-	list-style-type: none;
-}
-.site-nav__item{
-	padding: 0 10px;
-}
-.site-nav__link{
-	color: #191919;
-	font-size: 12px;
-	font-weight: 500;
-	line-height: 24px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-.site-nav__link--active{
-	color: #27b3ae;
-}
-.site-nav__link:hover{
-	color: #27b3ae;
-}
 .hero__heading-wrapper{
 	margin-left: 700px;
 	margin-top: 100px;
