@@ -17,34 +17,6 @@ body{
 	line-height: 60px;
 	letter-spacing: 0.3px;
 }
-.stats{
-	background-color: #10c9c3;
-}
-.stats__list{
-	height: 200px;
-	display: flex;
-	justify-content: space-between;
-	padding: 20px;
-	margin: 0;
-	list-style-type: none;
-}
-.stats__item{
-	width: 300px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #fff;		
-}
-.stats__icon{
-	width: 50px;
-	height: 50px;
-	margin: 10px;
-}
-.stats__text-count,
-.stats__text{
-	margin: 0;
-	padding-bottom: 5px;
-}
 .products__list{
 	display: flex;
 	flex-wrap: wrap;
