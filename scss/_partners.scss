@@ -1,0 +1,12 @@
+.partners__list{
+	display: flex;
+	justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 60px;
+  list-style-type: none;
+}
+.partners__img{
+	width: 100px;
+	height: 80px;
+}
