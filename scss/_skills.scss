@@ -1,0 +1,56 @@
+.skills{
+	height: 400px;
+	padding-bottom: 40px;
+	background: linear-gradient(to left, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("../img/skills3.jpg") no-repeat center;
+	background-size: cover;
+}
+.skills__heading{
+	padding-top: 80px;
+}
+.skills__text{
+	margin: 0;
+	padding: 10px 0;
+	color: #000000;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+}
+.skills__percent{
+	display: block;
+	width: 500px;
+	height: 3px;
+	margin-bottom: 5px;
+	background-color: #ccc;
+}
+.ux-ui{
+	position: relative;
+}
+.ux-ui::before{
+	position: absolute;
+	content: "";
+	width: 350px;
+	height: 3px;
+	background-color: #10c9c3;
+}
+.web{
+	position: relative;
+}
+.web::before{
+	position: absolute;
+	content: "";
+	width: 425px;
+	height: 3px;
+	background-color: #10c9c3;
+}
+.marketing{
+	position: relative;
+}
+.marketing::before{
+	position: absolute;
+	content: "";
+	width: 280px;
+	height: 3px;
+	background-color: #10c9c3;
+}
