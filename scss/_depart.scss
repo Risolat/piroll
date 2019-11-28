@@ -1,0 +1,24 @@
+.depart{
+	background-color: #f5f5f5;
+}
+.depart__list{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.depart__item{
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+}
+.depart__img{
+	width: 40px;
+	height: 40px;
+}
+.depart__heading,
+.depart__text{
+  padding-bottom: 10px;
+	margin: 0;
+} 

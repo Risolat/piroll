@@ -1,0 +1,46 @@
+.process__heading{
+	text-align: center;
+}
+.process__text{
+	width: 500px;
+	height: 38px;
+	margin: 0 auto 40px;
+	color: #787878;
+	font-family: "Nunito Sans", "Arial", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.08px;
+}
+.process__img{
+	display: block;
+	width: 700px;
+	height: 400px; 
+	margin: 0 auto;
+}
+.process__video{
+	position: relative;
+	display: block;
+	height: 400px;
+}
+.process__btn{
+	position: absolute;
+	top: 38%;
+	left: 48%;
+	width: 70px;
+	height: 70px;
+	right: 625px;
+	z-index: 1;
+	border-radius: 50%;
+	border-width: 0;
+	background-color: #10c9c3;
+}
+.process__btn::after{
+	position: absolute;
+	content: "";
+	top: 15px;
+	left: 29px;
+	border-top: 20px solid transparent;
+	border-left: 20px solid #fff;
+	border-bottom: 20px solid transparent;
+}
