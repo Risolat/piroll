@@ -5,20 +5,36 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0;
-	padding: 0;
+	padding: 50px 0;
 	list-style-type: none;
 }
 .depart__item{
 	width: 300px;
-	padding: 20px;
+	padding: 40px 30px;
 	text-align: center;
 }
 .depart__img{
-	width: 40px;
+	width: 42px;
 	height: 40px;
 }
-.depart__heading,
-.depart__text{
-  padding-bottom: 10px;
+.depart__heading{
 	margin: 0;
+	padding: 0;
+	color: #191919;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+}
+.depart__text{
+	margin: 0;
+	padding: 0;
+	color: #787878;
+	font-family: "Nunito", "Arial", sans-serif	;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.08px;
 } 
