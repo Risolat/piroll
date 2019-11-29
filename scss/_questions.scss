@@ -1,0 +1,70 @@
+.questions{
+	background-color: #f5f5f5;
+}
+.question__heading{
+	padding-top: 120px;
+	text-align: center;
+	color: #1d1d1d;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 84px;
+	letter-spacing: 0.3px;
+}
+.questions__text{
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 36px;
+	letter-spacing: 0.24px;
+}
+.questions__form{
+	display: flex;
+	flex-direction: column;
+	// justify-content: center;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+.questions__name-email{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+.questions__input{
+	width: 350px;
+	margin: 0 10px;
+	padding: 15px 20px;
+	border: none;
+	font-size: 17px;
+}
+.questions__input-title{
+	width: 720px;
+	margin: 0 auto 30px;
+	display: flex;
+	align-items: center;
+	
+}
+.questions__input-comment{
+	width: 720px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.questions__btn{
+	height: 54;
+	align-self: center;
+	text-align: center;
+	padding: 5px 50px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 54px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	background-color: #10c9c3;
+	border: none;
+}
